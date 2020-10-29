@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 3</title>
+</head>
+<body>
+
+</body>
+<script>
+    let str = "asdijhonuenreksribcgosk";
+    let vowel = [];
+
+    function countvowel(str) {
+        for (let i = 0; i < str.length; i++) {
+            let stro = str[i] === "a" ||  str[i] === "e" || str[i] === "i" || str[i] === "o" || str[i] === "u";
+            if(stro){
+                vowel.push(str[i]);
+            }
+        }
+        alert(vowel.length);
+    }
+    countvowel(str);
+
+
+</script>
+</html>
